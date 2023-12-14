@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+body{
+    background: #181625;
+}
+
+.main{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 2px skyblue;
+    margin: 50px auto;
+    position: relative;
+}
+.h-dial,.m-dial,.s-dial{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+.s-dial>div{
+    height: 130px;
+    width: 5px;
+    background: #A876AA;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 10px 0px #bf87c1;
+}
+
+.m-dial>div{
+    height: 130px;
+    width: 5px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+.h-dial>div{
+    height: 100px;
+    width: 5px;
+    background: white;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 10px 0px white;
+}
+.bindu{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#digital-time,#digital-date{
+    text-align: center;
+}
+#digital-time{color: white;font-size: 80px;}
+#digital-date{color: #A5A4A3;}
